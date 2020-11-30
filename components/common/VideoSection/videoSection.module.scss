@@ -1,0 +1,26 @@
+@import '/styles/colors.scss';
+
+.section { 
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(180deg,transparent 40%, rgba(0,0,0,.2) 45%, #000 55%), url(/img/video-section-bg.jpg);
+  background-position: top;
+  @media (min-width: 768px) {
+    background-position: top,center 35%;
+    background-size: 0,cover;
+  }
+}
+
+.playIcon {
+  border: 3rem solid $info;
+  border-radius: 50%;
+  animation: pulse 1.25s cubic-bezier(.66,0,0,1) infinite;
+  box-shadow: 0 0 0 0 hsla(0,0%,85.1%,.7);
+
+  @keyframes pulse 
+    {
+      to {
+        box-shadow: 0 0 0 45px hsla(0,0%,85.1%,0)
+      }
+    }
+}

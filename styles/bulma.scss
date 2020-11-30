@@ -1,0 +1,57 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import './colors.scss';
+@import '~bulma/bulma';
+
+body {
+  font-family: Raleway,Lato,Kanit,sans-serif;
+  font-weight: 550;
+}
+
+span {
+  vertical-align: middle;
+}
+
+.button {
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,.15);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.container.is-small {
+  max-width: 840px !important;
+}
+
+select,.input {
+  // color: 'red' !important;
+  font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+  .navbar-brand {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-burger {
+    position: absolute;
+    left: 0;
+
+    span {
+      width: 24px;
+      height: 2px;
+    }
+  }
+
+  .navbar-call {
+    position: absolute;
+    right: 1.5rem;
+  }
+
+  .navbar-menu {
+    background: transparent;
+
+    a {
+      color: white;
+    }
+  }
+}

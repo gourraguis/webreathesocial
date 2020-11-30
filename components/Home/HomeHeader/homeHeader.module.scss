@@ -1,0 +1,14 @@
+.heroImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  min-width: 400px;
+  max-width: 550px;
+}
+
+.columns {
+  @media (max-width: 1024px) {
+    justify-content: center;
+  }
+}

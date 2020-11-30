@@ -1,0 +1,24 @@
+@import '/styles/colors.scss';
+
+.navbar {
+  background-color: inherit;
+  @media (min-width: 1023px) {
+    margin-top: -2.5rem;
+  }
+}
+
+.logo {
+  max-height: 6.5rem !important;
+}
+
+.navItem {
+  color: white;
+  font-weight: 700;
+  @media (max-width: 768px) {
+    color: #4a4a4a
+  }
+
+  &:hover {
+    color: $info !important;
+  }
+}
