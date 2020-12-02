@@ -1,0 +1,31 @@
+.selectField {
+  @media (max-width: 1024px) {
+    display: block !important;
+
+    button {
+      margin-top: 15px;
+      box-shadow: 0 24px 18px 0 rgba(0,0,0,.3);
+    }
+
+    div, select {
+      width: 100%;
+    }
+  }
+}
+
+.content {
+  margin-bottom: 1rem;
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.badges {
+  margin-top: 2rem;
+  margin-bottom: 0 !important;
+  justify-content: space-evenly;
+}
